@@ -21,9 +21,7 @@ export function Header() {
     <header className="sticky top-0 z-40 bg-white/80 backdrop-blur-md border-b border-slate-200/60 shadow-sm shadow-slate-900/[0.02] dark:bg-slate-950/70 dark:border-slate-800/70 dark:shadow-none">
       <div className="mx-auto max-w-6xl px-4 md:px-6 h-16 flex items-center justify-between gap-4">
         <a href="#top" className="flex items-center gap-2 font-semibold text-slate-900 shrink-0 dark:text-white">
-          <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-gradient-to-br from-brand-500 to-brand-700 text-white text-sm shadow-md shadow-brand-600/20">
-            KI
-          </span>
+          <img src="/logo.svg" alt="" aria-hidden="true" className="h-10 w-10 shrink-0" />
           <span className="hidden sm:inline">Komfort Instal</span>
         </a>
 

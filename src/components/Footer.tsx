@@ -19,9 +19,7 @@ export function Footer() {
       <div className="relative mx-auto max-w-6xl px-4 md:px-6 py-14 grid gap-10 md:grid-cols-4">
         <div className="md:col-span-1">
           <div className="flex items-center gap-2 font-semibold text-slate-900 dark:text-white">
-            <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-gradient-to-br from-brand-500 to-brand-700 text-white text-sm shadow-md shadow-brand-600/20">
-              KI
-            </span>
+            <img src="/logo.svg" alt="" aria-hidden="true" className="h-10 w-10 shrink-0" />
             <span>Komfort Instal</span>
           </div>
           <p className="mt-3 text-sm text-slate-600 max-w-xs leading-relaxed dark:text-slate-400">{t.footer.tagline}</p>
