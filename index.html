@@ -1,10 +1,92 @@
 <!doctype html>
-<html lang="en">
+<html lang="pl">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <script>
+      (function () {
+        try {
+          var t = localStorage.getItem('theme');
+          var d = t === 'dark' || (!t && matchMedia('(prefers-color-scheme: dark)').matches);
+          if (d) document.documentElement.classList.add('dark');
+          document.documentElement.style.colorScheme = d ? 'dark' : 'light';
+        } catch (_) {}
+      })();
+    </script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>landing</title>
+    <meta name="theme-color" content="#2563eb" />
+
+    <title>Montaż rekuperacji Trzebinia, Małopolska — Komfort Instal</title>
+    <meta
+      name="description"
+      content="Kompleksowy montaż rekuperacji w domach jednorodzinnych. Projekt, instalacja, serwis i audyt wentylacji. Trzebinia i Małopolska."
+    />
+    <meta name="keywords" content="rekuperacja, montaż rekuperacji, wentylacja mechaniczna z odzyskiem ciepła, projekt rekuperacji, serwis rekuperacji, Trzebinia, Chrzanów, Kraków, Małopolska" />
+    <meta name="author" content="Komfort Instal" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Komfort Instal" />
+    <meta property="og:title" content="Komfort Instal — kompleksowy montaż instalacji w twoim domu" />
+    <meta property="og:description" content="Rekuperacja, projekt, montaż i serwis. Szybki montaż, fachowa obsługa. Trzebinia, Małopolskie." />
+    <meta property="og:image" content="https://images.unsplash.com/photo-1558002038-1055907df827?auto=format&fit=crop&w=1200&q=80" />
+    <meta property="og:image:alt" content="Komfort Instal — montaż rekuperacji" />
+    <meta property="og:locale" content="pl_PL" />
+    <meta property="og:locale:alternate" content="en_US" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Komfort Instal — kompleksowy montaż instalacji w twoim domu" />
+    <meta name="twitter:description" content="Rekuperacja, projekt, montaż i serwis. Szybki montaż, fachowa obsługa. Trzebinia, Małopolskie." />
+    <meta name="twitter:image" content="https://images.unsplash.com/photo-1558002038-1055907df827?auto=format&fit=crop&w=1200&q=80" />
+
+    <link rel="preconnect" href="https://images.unsplash.com" crossorigin />
+    <link
+      rel="preload"
+      as="image"
+      href="https://images.unsplash.com/photo-1558002038-1055907df827?auto=format&fit=crop&w=1400&q=80"
+      fetchpriority="high"
+    />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Komfort Instal",
+        "description": "Kompleksowy montaż instalacji rekuperacji w domach jednorodzinnych. Projekt, serwis, audyt i doradztwo techniczne. Trzebinia, Małopolska.",
+        "image": "https://images.unsplash.com/photo-1558002038-1055907df827?auto=format&fit=crop&w=1200&q=80",
+        "telephone": "+48 533 722 303",
+        "email": "Komfort.instal@gmail.com",
+        "priceRange": "$$",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Trzebinia",
+          "postalCode": "53-540",
+          "addressRegion": "Małopolskie",
+          "addressCountry": "PL"
+        },
+        "areaServed": [
+          { "@type": "City", "name": "Trzebinia" },
+          { "@type": "City", "name": "Chrzanów" },
+          { "@type": "City", "name": "Oświęcim" },
+          { "@type": "City", "name": "Olkusz" },
+          { "@type": "City", "name": "Kraków" }
+        ],
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Usługi",
+          "itemListElement": [
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Montaż rekuperacji" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Projekt instalacji rekuperacji" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Serwis i przeglądy rekuperacji" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Czyszczenie i dezynfekcja rekuperacji" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Regulacja i pomiary przepływów" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Modernizacja instalacji rekuperacji" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Przewierty i przygotowanie instalacji" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Audyt wentylacji" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Doradztwo techniczne" } }
+          ]
+        }
+      }
+    </script>
   </head>
   <body>
     <div id="root"></div>

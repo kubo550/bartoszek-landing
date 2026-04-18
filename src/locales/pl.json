@@ -1,0 +1,217 @@
+{
+  "meta": {
+    "title": "Komfort Instal — kompleksowy montaż instalacji w twoim domu",
+    "description": "Kompleksowy montaż rekuperacji w domach jednorodzinnych. Projekt, instalacja, serwis, cennik i dotacje. Trzebinia, Małopolskie.",
+    "ogTitle": "Komfort Instal — kompleksowy montaż instalacji w twoim domu",
+    "ogDescription": "Rekuperacja, projekt, montaż i serwis. Szybki montaż, fachowa obsługa. Trzebinia, Małopolskie."
+  },
+  "nav": {
+    "services": "Usługi",
+    "why": "Dlaczego rekuperacja",
+    "subsidies": "Dotacje",
+    "pricing": "Cennik",
+    "contact": "Kontakt",
+    "cta": "Uzyskaj wycenę",
+    "callCta": "Zadzwoń 533 722 303"
+  },
+  "hero": {
+    "eyebrow": "Komfort Instal — Trzebinia, Małopolskie",
+    "title": "Kompleksowy montaż instalacji w twoim domu",
+    "subtitle": "Szybki montaż • Fachowa obsługa",
+    "cta": "UZYSKAJ WYCENĘ",
+    "secondaryCta": "Dowiedz się więcej",
+    "imageAlt": "Nowoczesny dom z instalacją rekuperacji"
+  },
+  "intro": {
+    "eyebrow": "Rekuperacja",
+    "title": "Do czego służy rekuperacja?",
+    "paragraph1": "Rekuperacja to nowoczesny system wentylacji, który zapewnia stałą wymianę powietrza w budynku bez konieczności otwierania okien. Zużyte powietrze jest usuwane, a w jego miejsce trafia świeże — wcześniej przefiltrowane i wstępnie ogrzane.",
+    "paragraph2": "Dzięki temu w domu zawsze masz dostęp do świeżego powietrza, bez strat ciepła i bez wpływu warunków zewnętrznych.",
+    "whyTitle": "Dlaczego warto zamontować rekuperację?",
+    "bullets": [
+      "Niższe rachunki za ogrzewanie",
+      "Lepsze zdrowie i komfort",
+      "Brak wilgoci i pleśni"
+    ]
+  },
+  "features": {
+    "title": "Dlaczego warto postawić na rekuperację",
+    "subtitle": "Trzy konkretne powody, które decydują",
+    "items": [
+      {
+        "number": "01",
+        "title": "Realne oszczędności i niższe rachunki",
+        "description": "Rekuperacja pozwala odzyskać nawet do 80–90% ciepła z powietrza wywiewanego z domu. Oznacza to mniejsze straty energii i realnie niższe koszty ogrzewania — szczególnie w nowych, dobrze ocieplonych budynkach. Inwestycja w rekuperację zwraca się poprzez niższe rachunki i większą efektywność całego systemu grzewczego.",
+        "bulletsTitle": "",
+        "bullets": []
+      },
+      {
+        "number": "02",
+        "title": "Komfort i zdrowe powietrze przez cały rok",
+        "description": "Z rekuperacją nie musisz otwierać okien, aby przewietrzyć dom. System działa cały czas, zapewniając świeże, przefiltrowane powietrze bez przeciągów, hałasu i zanieczyszczeń z zewnątrz.",
+        "bulletsTitle": "Idealne rozwiązanie dla:",
+        "bullets": [
+          "alergików",
+          "dzieci",
+          "osób mieszkających przy ruchliwych drogach"
+        ]
+      },
+      {
+        "number": "03",
+        "title": "Dobrze wykonana instalacja = brak problemów na lata",
+        "description": "Rekuperacja działa dobrze tylko wtedy, gdy jest dobrze zaprojektowana i wykonana. Dlatego stawiamy na:",
+        "bulletsTitle": "",
+        "bullets": [
+          "indywidualny projekt dopasowany do budynku",
+          "sprawdzone materiały i rozwiązania",
+          "dokładny montaż i regulację przepływów",
+          "wsparcie po wykonaniu instalacji"
+        ]
+      }
+    ]
+  },
+  "services": {
+    "title": "Usługi",
+    "subtitle": "Kompleksowy zakres prac wokół rekuperacji",
+    "items": [
+      { "number": "01", "title": "Montaż rekuperacji", "description": "Pełny montaż systemów wentylacji z odzyskiem ciepła w domach jednorodzinnych." },
+      { "number": "02", "title": "Projekt instalacji rekuperacji", "description": "Indywidualne projekty rekuperacji dopasowane do układu pomieszczeń i stylu życia." },
+      { "number": "03", "title": "Serwis i przeglądy rekuperacji", "description": "Regularne przeglądy i serwis utrzymujący system w pełnej sprawności." },
+      { "number": "04", "title": "Czyszczenie i dezynfekcja rekuperacji", "description": "Czyszczenie kanałów i dezynfekcja układu — świeże powietrze bez zanieczyszczeń." },
+      { "number": "05", "title": "Regulacja i pomiary przepływów", "description": "Precyzyjne ustawienie strumieni powietrza dla każdego pomieszczenia." },
+      { "number": "06", "title": "Modernizacja instalacji rekuperacji", "description": "Unowocześnienie istniejących układów wentylacji i poprawa ich efektywności." },
+      { "number": "07", "title": "Przewierty i przygotowanie instalacji", "description": "Przewierty w stropach i ścianach oraz przygotowanie tras dla instalacji." },
+      { "number": "08", "title": "Audyt wentylacji", "description": "Ocena stanu istniejącej wentylacji i rekomendacje usprawnień." },
+      { "number": "09", "title": "Doradztwo techniczne", "description": "Pomoc w wyborze rozwiązań, urządzeń i materiałów odpowiednich dla Twojego domu." }
+    ],
+    "ctaContact": "Kontakt",
+    "ctaPricing": "Więcej informacji oraz cennik"
+  },
+  "pricing": {
+    "title": "Cennik",
+    "subtitle": "Orientacyjne widełki cenowe — ostateczna cena po wizji lokalnej",
+    "groups": [
+      {
+        "title": "Rekuperacja — montaż",
+        "items": [
+          { "label": "Mieszkanie / mały dom (do ~80 m²)", "price": "11 000 – 15 000 zł" },
+          { "label": "Dom jednorodzinny 100–150 m²", "price": "15 000 – 25 000 zł" },
+          { "label": "Dom pow. 150 m² / instalacje rozbudowane", "price": "25 000 – 35 000 zł" }
+        ]
+      },
+      {
+        "title": "Modernizacja instalacji rekuperacji",
+        "items": [
+          { "label": "Drobne poprawki", "price": "300 – 1 000 zł" },
+          { "label": "Większe modernizacje", "price": "1 000 – 5 000 zł" }
+        ]
+      },
+      {
+        "title": "Serwis, przeglądy i regulacja",
+        "items": [
+          { "label": "Przegląd podstawowy", "price": "300 – 500 zł" },
+          { "label": "Przegląd rozszerzony", "price": "400 – 800 zł" },
+          { "label": "Pomiary i regulacja", "price": "300 – 700 zł" }
+        ]
+      },
+      {
+        "title": "Czyszczenie i dezynfekcja",
+        "items": [
+          { "label": "Czyszczenie centrali", "price": "300 – 600 zł" },
+          { "label": "Czyszczenie + dezynfekcja", "price": "500 – 900 zł" }
+        ]
+      }
+    ],
+    "whatAffectsTitle": "Co wpływa na cenę?",
+    "whatAffects": [
+      "Powierzchnia i układ domu",
+      "Liczba i typ anemostatów / kratek",
+      "Rodzaj wybranej centrali rekuperacyjnej",
+      "Stopień trudności prowadzenia instalacji",
+      "Dodatkowe elementy: GWC, bypass, czujniki CO₂"
+    ],
+    "noteTitle": "Przygotowujemy wycenę nawet w 24h",
+    "noteBody": "Wyślij rzut lub opis prac — oddzwonimy i umówimy wizję lokalną.",
+    "cta": "Uzyskaj ofertę"
+  },
+  "subsidies": {
+    "title": "Dotacje",
+    "subtitle": "Sprawdź dostępne dofinansowania — pomożemy dobrać odpowiedni program",
+    "items": [
+      {
+        "name": "Pożyczka na OZE",
+        "description": "Pożyczka OZE dla mieszkańców — FEMP umożliwia finansowanie inwestycji w ekologiczne źródła energii dla właścicieli budynków jednorodzinnych w Małopolsce.",
+        "details": [
+          "Kwota pożyczki: do 250 000 zł",
+          "Oprocentowanie: 0%",
+          "Okres spłaty: do 15 lat",
+          "Brak prowizji"
+        ],
+        "url": "https://www.bgk.pl/produkty/pozyczka-na-oze-dla-mieszkancow-malopolska/"
+      },
+      {
+        "name": "Moje Ciepło",
+        "description": "Dotacja NFOŚiGW na pompy ciepła w nowych domach — od 7 do 21 tys. zł, w zależności od rodzaju urządzenia.",
+        "details": [
+          "Nabór: do 31 grudnia 2026 r.",
+          "Budżet programu: 600 mln zł"
+        ],
+        "url": "https://mojecieplo.gov.pl/"
+      },
+      {
+        "name": "Mój Prąd",
+        "description": "Program wsparcia dla prosumentów na zakup i montaż fotowoltaiki, magazynów energii i ciepła.",
+        "details": [
+          "Maksymalne dofinansowanie: do 28 000 zł"
+        ],
+        "url": "https://mojprad.gov.pl/"
+      },
+      {
+        "name": "Czyste Powietrze",
+        "description": "Program dla właścicieli domów jednorodzinnych — wymiana źródeł ciepła, termomodernizacja i audyt energetyczny.",
+        "details": [
+          "Wsparcie: nawet do 136 200 zł w zależności od poziomu dochodów"
+        ],
+        "url": "https://czystepowietrze.gov.pl/"
+      }
+    ],
+    "readMore": "Czytaj więcej"
+  },
+  "form": {
+    "title": "Uzyskaj wycenę",
+    "subtitle": "Opisz swoje potrzeby — odezwiemy się szybko",
+    "fields": {
+      "name": "Imię",
+      "namePlaceholder": "Jan",
+      "lastName": "Nazwisko",
+      "lastNamePlaceholder": "Kowalski",
+      "email": "Email",
+      "emailPlaceholder": "jan@przyklad.pl",
+      "phone": "Telefon",
+      "phonePlaceholder": "+48 600 000 000",
+      "message": "Opisz czego potrzebujesz",
+      "messagePlaceholder": "Np. nowy dom 150 m², zainteresowany rekuperacją"
+    },
+    "submit": "UZYSKAJ OFERTĘ",
+    "submitting": "Wysyłanie…",
+    "success": "Dziękujemy! Skontaktujemy się z Tobą jak najszybciej.",
+    "privacy": "Wysyłając formularz, akceptujesz naszą politykę prywatności.",
+    "orCall": "lub zadzwoń bezpośrednio"
+  },
+  "footer": {
+    "tagline": "Kompleksowy montaż instalacji w twoim domu — Małopolska",
+    "contact": "Kontakt",
+    "phone": "533 722 303",
+    "email": "Komfort.instal@gmail.com",
+    "address": "32-540 Trzebinia, Małopolskie",
+    "links": "Nawigacja",
+    "legal": "Informacje",
+    "legalLinks": [
+      { "label": "FAQ", "href": "#" },
+      { "label": "Regulamin", "href": "#" },
+      { "label": "Polityka prywatności", "href": "#" },
+      { "label": "Deklaracja dostępności", "href": "#" }
+    ],
+    "rights": "Wszelkie prawa zastrzeżone."
+  }
+}

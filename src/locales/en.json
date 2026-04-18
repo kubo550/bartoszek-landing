@@ -1,0 +1,217 @@
+{
+  "meta": {
+    "title": "Komfort Instal — end-to-end home installations",
+    "description": "End-to-end heat recovery ventilation (MVHR) for homes. Design, installation, service, pricing and subsidies. Trzebinia, Małopolska.",
+    "ogTitle": "Komfort Instal — end-to-end home installations",
+    "ogDescription": "MVHR, design, installation and service. Fast install, expert team. Trzebinia, Małopolska."
+  },
+  "nav": {
+    "services": "Services",
+    "why": "Why MVHR",
+    "subsidies": "Subsidies",
+    "pricing": "Pricing",
+    "contact": "Contact",
+    "cta": "Get a quote",
+    "callCta": "Call 533 722 303"
+  },
+  "hero": {
+    "eyebrow": "Komfort Instal — Trzebinia, Małopolska",
+    "title": "End-to-end home installations",
+    "subtitle": "Fast install • Expert team",
+    "cta": "GET A QUOTE",
+    "secondaryCta": "Learn more",
+    "imageAlt": "Modern home with a heat recovery ventilation system"
+  },
+  "intro": {
+    "eyebrow": "MVHR",
+    "title": "What is heat recovery ventilation?",
+    "paragraph1": "MVHR is a modern ventilation system that provides a constant air exchange in your building without opening windows. Stale air is removed, and fresh air — pre-filtered and pre-heated — is supplied in its place.",
+    "paragraph2": "The result: always fresh air at home, with no heat loss and no influence from outside conditions.",
+    "whyTitle": "Why install MVHR?",
+    "bullets": [
+      "Lower heating bills",
+      "Better health and comfort",
+      "No humidity or mould"
+    ]
+  },
+  "features": {
+    "title": "Why MVHR is worth it",
+    "subtitle": "Three concrete reasons that matter",
+    "items": [
+      {
+        "number": "01",
+        "title": "Real savings and lower bills",
+        "description": "MVHR can recover up to 80–90% of the heat from the air extracted from your home. That means less energy lost and real savings on heating — especially in new, well-insulated buildings. The investment pays back through lower bills and a more efficient heating system.",
+        "bulletsTitle": "",
+        "bullets": []
+      },
+      {
+        "number": "02",
+        "title": "Comfort and healthy air all year",
+        "description": "With MVHR you no longer need to open windows to ventilate. The system runs continuously, delivering fresh, filtered air without drafts, noise or outdoor pollution.",
+        "bulletsTitle": "An ideal solution for:",
+        "bullets": [
+          "allergy sufferers",
+          "children",
+          "homes near busy roads"
+        ]
+      },
+      {
+        "number": "03",
+        "title": "A proper installation = trouble-free for years",
+        "description": "MVHR works well only when it's well designed and well installed. That's why we focus on:",
+        "bulletsTitle": "",
+        "bullets": [
+          "an individual design matched to the building",
+          "proven materials and solutions",
+          "precise installation and airflow balancing",
+          "ongoing support after commissioning"
+        ]
+      }
+    ]
+  },
+  "services": {
+    "title": "Services",
+    "subtitle": "Full scope of MVHR-related work",
+    "items": [
+      { "number": "01", "title": "MVHR installation", "description": "Full installation of heat recovery ventilation in single-family homes." },
+      { "number": "02", "title": "MVHR system design", "description": "Individual MVHR designs matched to your layout and lifestyle." },
+      { "number": "03", "title": "MVHR service & inspections", "description": "Regular inspections and service keeping your system in top condition." },
+      { "number": "04", "title": "MVHR cleaning & disinfection", "description": "Duct cleaning and system disinfection — fresh air free of contaminants." },
+      { "number": "05", "title": "Airflow measurement & balancing", "description": "Precise airflow settings for every room in the house." },
+      { "number": "06", "title": "MVHR system upgrades", "description": "Modernising existing ventilation systems and improving their efficiency." },
+      { "number": "07", "title": "Drilling & prep work", "description": "Drilling through ceilings and walls and preparing routes for ductwork." },
+      { "number": "08", "title": "Ventilation audit", "description": "Assessment of existing ventilation and improvement recommendations." },
+      { "number": "09", "title": "Technical consulting", "description": "Help choosing the right solutions, units and materials for your home." }
+    ],
+    "ctaContact": "Contact",
+    "ctaPricing": "More info & pricing"
+  },
+  "pricing": {
+    "title": "Pricing",
+    "subtitle": "Indicative price ranges — final price after an on-site visit",
+    "groups": [
+      {
+        "title": "MVHR — installation",
+        "items": [
+          { "label": "Flat / small home (up to ~80 m²)", "price": "11,000 – 15,000 PLN" },
+          { "label": "Single-family home 100–150 m²", "price": "15,000 – 25,000 PLN" },
+          { "label": "Home over 150 m² / extensive installs", "price": "25,000 – 35,000 PLN" }
+        ]
+      },
+      {
+        "title": "MVHR modernisation",
+        "items": [
+          { "label": "Minor fixes", "price": "300 – 1,000 PLN" },
+          { "label": "Larger upgrades", "price": "1,000 – 5,000 PLN" }
+        ]
+      },
+      {
+        "title": "Service, inspections & balancing",
+        "items": [
+          { "label": "Basic inspection", "price": "300 – 500 PLN" },
+          { "label": "Extended inspection", "price": "400 – 800 PLN" },
+          { "label": "Measurements & balancing", "price": "300 – 700 PLN" }
+        ]
+      },
+      {
+        "title": "Cleaning & disinfection",
+        "items": [
+          { "label": "Unit cleaning", "price": "300 – 600 PLN" },
+          { "label": "Cleaning + disinfection", "price": "500 – 900 PLN" }
+        ]
+      }
+    ],
+    "whatAffectsTitle": "What affects the price?",
+    "whatAffects": [
+      "Home size and layout",
+      "Number and type of diffusers / grilles",
+      "Chosen MVHR unit",
+      "Installation complexity",
+      "Extras: GHE, bypass, CO₂ sensors"
+    ],
+    "noteTitle": "We prepare a quote within 24h",
+    "noteBody": "Send a floor plan or work scope — we'll call back and arrange an on-site visit.",
+    "cta": "Get a quote"
+  },
+  "subsidies": {
+    "title": "Subsidies",
+    "subtitle": "Available funding programmes — we'll help you pick the right one",
+    "items": [
+      {
+        "name": "OZE Loan",
+        "description": "OZE loan for residents — FEMP finances green-energy investments for single-family-home owners in Małopolska.",
+        "details": [
+          "Loan amount: up to 250,000 PLN",
+          "Interest: 0%",
+          "Repayment: up to 15 years",
+          "No commission"
+        ],
+        "url": "https://www.bgk.pl/produkty/pozyczka-na-oze-dla-mieszkancow-malopolska/"
+      },
+      {
+        "name": "Moje Ciepło",
+        "description": "NFOŚiGW subsidy for heat pumps in new homes — from 7,000 to 21,000 PLN depending on the unit type.",
+        "details": [
+          "Applications open until 31 December 2026",
+          "Programme budget: 600 M PLN"
+        ],
+        "url": "https://mojecieplo.gov.pl/"
+      },
+      {
+        "name": "Mój Prąd",
+        "description": "Support programme for prosumers buying and installing PV, energy storage and heat storage.",
+        "details": [
+          "Max funding: up to 28,000 PLN"
+        ],
+        "url": "https://mojprad.gov.pl/"
+      },
+      {
+        "name": "Czyste Powietrze",
+        "description": "Programme for single-family-home owners — replacing heat sources, thermal upgrades and energy audits.",
+        "details": [
+          "Support: up to 136,200 PLN depending on income"
+        ],
+        "url": "https://czystepowietrze.gov.pl/"
+      }
+    ],
+    "readMore": "Read more"
+  },
+  "form": {
+    "title": "Get a quote",
+    "subtitle": "Describe your needs — we'll get back to you quickly",
+    "fields": {
+      "name": "First name",
+      "namePlaceholder": "John",
+      "lastName": "Last name",
+      "lastNamePlaceholder": "Smith",
+      "email": "Email",
+      "emailPlaceholder": "john@example.com",
+      "phone": "Phone",
+      "phonePlaceholder": "+48 600 000 000",
+      "message": "Describe what you need",
+      "messagePlaceholder": "E.g. new home 150 m², interested in MVHR"
+    },
+    "submit": "GET A QUOTE",
+    "submitting": "Sending…",
+    "success": "Thank you! We'll be in touch as soon as possible.",
+    "privacy": "By submitting the form you accept our privacy policy.",
+    "orCall": "or call us directly"
+  },
+  "footer": {
+    "tagline": "End-to-end home installations — Małopolska",
+    "contact": "Contact",
+    "phone": "533 722 303",
+    "email": "Komfort.instal@gmail.com",
+    "address": "32-540 Trzebinia, Małopolska",
+    "links": "Navigation",
+    "legal": "Info",
+    "legalLinks": [
+      { "label": "FAQ", "href": "#" },
+      { "label": "Terms", "href": "#" },
+      { "label": "Privacy policy", "href": "#" },
+      { "label": "Accessibility statement", "href": "#" }
+    ],
+    "rights": "All rights reserved."
+  }
+}
