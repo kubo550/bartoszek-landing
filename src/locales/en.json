@@ -195,6 +195,7 @@
     "submit": "GET A QUOTE",
     "submitting": "Sending…",
     "success": "Thank you! We'll be in touch as soon as possible.",
+    "error": "Something went wrong. Please try again or call us directly.",
     "privacy": "By submitting the form you accept our privacy policy.",
     "orCall": "or call us directly"
   },

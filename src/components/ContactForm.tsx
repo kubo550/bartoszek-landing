@@ -1,19 +1,41 @@
 import { useState, type FormEvent } from 'react'
 import { useTranslation } from '../hooks/useTranslation'
 
-type Status = 'idle' | 'submitting' | 'success'
+type Status = 'idle' | 'submitting' | 'success' | 'error'
+
+const ACCESS_KEY = import.meta.env.VITE_WEB3FORMS_KEY as string | undefined
 
 export function ContactForm() {
   const { t } = useTranslation()
   const [status, setStatus] = useState<Status>('idle')
+  const [errorMessage, setErrorMessage] = useState('')
 
-  function onSubmit(e: FormEvent<HTMLFormElement>) {
+  async function onSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault()
     setStatus('submitting')
-    window.setTimeout(() => {
-      setStatus('success')
-      ;(e.target as HTMLFormElement).reset()
-    }, 600)
+    setErrorMessage('')
+
+    const form = e.currentTarget
+    const formData = new FormData(form)
+    if (ACCESS_KEY) formData.append('access_key', ACCESS_KEY)
+
+    try {
+      const response = await fetch('https://api.web3forms.com/submit', {
+        method: 'POST',
+        body: formData,
+      })
+      const data = (await response.json()) as { success?: boolean; message?: string }
+      if (data.success) {
+        setStatus('success')
+        form.reset()
+      } else {
+        setStatus('error')
+        setErrorMessage(data.message ?? t.form.error)
+      }
+    } catch {
+      setStatus('error')
+      setErrorMessage(t.form.error)
+    }
   }
 
   const f = t.form.fields
@@ -68,6 +90,18 @@ export function ContactForm() {
           data-reveal
           className="mt-10 grid gap-4 sm:grid-cols-2 bg-white/[0.04] backdrop-blur-sm p-6 md:p-8 rounded-2xl ring-1 ring-white/10 shadow-2xl shadow-black/30"
         >
+          <input type="hidden" name="subject" value="Nowe zapytanie z www — Komfort Instal" />
+          <input type="hidden" name="from_name" value="Komfort Instal — landing" />
+          <input
+            type="checkbox"
+            name="botcheck"
+            tabIndex={-1}
+            autoComplete="off"
+            aria-hidden="true"
+            className="hidden"
+            style={{ display: 'none' }}
+          />
+
           <Field label={f.name} name="name" placeholder={f.namePlaceholder} required autoComplete="given-name" />
           <Field label={f.lastName} name="lastName" placeholder={f.lastNamePlaceholder} required autoComplete="family-name" />
           <Field
@@ -111,6 +145,11 @@ export function ContactForm() {
             {status === 'success' && (
               <p role="status" className="text-sm text-emerald-300">
                 {t.form.success}
+              </p>
+            )}
+            {status === 'error' && (
+              <p role="alert" className="text-sm text-rose-300">
+                {errorMessage || t.form.error}
               </p>
             )}
             <p className="text-xs text-slate-400">{t.form.privacy}</p>
