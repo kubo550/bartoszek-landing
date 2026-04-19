@@ -1,4 +1,6 @@
 import { useTranslation } from '../hooks/useTranslation'
+import { SectionHeader } from './ui/SectionHeader'
+import { ArrowIcon } from './ui/icons'
 
 const PROGRAM_ACCENTS = [
   {
@@ -49,13 +51,12 @@ export function Subsidies() {
       <div aria-hidden="true" className="pointer-events-none absolute bottom-10 left-0 h-72 w-72 rounded-full bg-sky-100/50 blur-3xl dark:bg-sky-500/10" />
 
       <div className="relative mx-auto max-w-6xl px-4 md:px-6">
-        <div className="max-w-2xl" data-reveal>
-          <span className="inline-flex items-center rounded-full bg-white ring-1 ring-slate-200 text-slate-700 text-xs font-medium px-3 py-1 shadow-sm dark:bg-slate-800 dark:ring-slate-700 dark:text-slate-200 dark:shadow-none">
-            {t.subsidies.title}
-          </span>
-          <h2 className="mt-3 text-3xl md:text-4xl font-semibold tracking-tight">{t.subsidies.title}</h2>
-          <p className="mt-3 text-slate-600 dark:text-slate-400">{t.subsidies.subtitle}</p>
-        </div>
+        <SectionHeader
+          eyebrow={t.subsidies.title}
+          eyebrowVariant="slate"
+          title={t.subsidies.title}
+          subtitle={t.subsidies.subtitle}
+        />
         <div className="mt-12 grid gap-6 sm:grid-cols-2">
           {t.subsidies.items.map((item, idx) => {
             const a = PROGRAM_ACCENTS[idx] ?? PROGRAM_ACCENTS[0]
@@ -102,17 +103,7 @@ export function Subsidies() {
                   className={`relative mt-6 inline-flex items-center gap-1.5 text-sm font-medium ${a.link}`}
                 >
                   {t.subsidies.readMore}
-                  <svg
-                    width="14"
-                    height="14"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="2.5"
-                    className="transition-transform group-hover:translate-x-0.5"
-                  >
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M5 12h14M13 5l7 7-7 7" />
-                  </svg>
+                  <ArrowIcon className="transition-transform group-hover:translate-x-0.5" />
                 </a>
               </article>
             )

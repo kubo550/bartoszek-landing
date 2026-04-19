@@ -1,4 +1,6 @@
 import { useTranslation } from '../hooks/useTranslation'
+import { SectionHeader } from './ui/SectionHeader'
+import { ArrowIcon, CheckIcon } from './ui/icons'
 
 export function Pricing() {
   const { t } = useTranslation()
@@ -10,13 +12,7 @@ export function Pricing() {
       />
 
       <div className="relative mx-auto max-w-6xl px-4 md:px-6">
-        <div className="max-w-2xl" data-reveal>
-          <span className="inline-flex items-center rounded-full bg-brand-50 ring-1 ring-brand-100 text-brand-700 text-xs font-medium px-3 py-1 dark:bg-brand-500/15 dark:ring-brand-500/30 dark:text-brand-300">
-            {t.pricing.title}
-          </span>
-          <h2 className="mt-3 text-3xl md:text-4xl font-semibold tracking-tight">{t.pricing.title}</h2>
-          <p className="mt-3 text-slate-600 dark:text-slate-400">{t.pricing.subtitle}</p>
-        </div>
+        <SectionHeader eyebrow={t.pricing.title} title={t.pricing.title} subtitle={t.pricing.subtitle} />
 
         <div className="mt-12 grid gap-6 md:grid-cols-2">
           {t.pricing.groups.map((group, idx) => {
@@ -67,9 +63,7 @@ export function Pricing() {
               {t.pricing.whatAffects.map((x) => (
                 <li key={x} className="flex items-start gap-2.5 text-slate-700 text-sm dark:text-slate-300">
                   <span className="mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-brand-50 text-brand-600 dark:bg-brand-500/15 dark:text-brand-300">
-                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3">
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M5 12l5 5 9-11" />
-                    </svg>
+                    <CheckIcon size={12} strokeWidth={3} />
                   </span>
                   <span>{x}</span>
                 </li>
@@ -96,9 +90,7 @@ export function Pricing() {
               className="relative mt-5 inline-flex items-center gap-2 rounded-full bg-white px-5 py-2.5 text-sm font-semibold text-brand-700 hover:bg-brand-50 transition-colors"
             >
               {t.pricing.cta}
-              <svg aria-hidden="true" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M5 12h14M13 5l7 7-7 7" />
-              </svg>
+              <ArrowIcon />
             </a>
           </div>
         </div>

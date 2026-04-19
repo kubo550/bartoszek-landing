@@ -2,6 +2,8 @@ import { useState } from 'react'
 import { useTranslation } from '../hooks/useTranslation'
 import { LanguageToggle } from './LanguageToggle'
 import { ThemeToggle } from './ThemeToggle'
+import { PhoneIcon } from './ui/icons'
+import { phoneHref } from '../lib/phone'
 
 export function Header() {
   const { t } = useTranslation()
@@ -15,7 +17,7 @@ export function Header() {
     { href: '#contact', label: t.nav.contact },
   ]
 
-  const phoneHref = `tel:+48${t.footer.phone.replace(/\s/g, '')}`
+  const tel = phoneHref(t.footer.phone)
 
   return (
     <header className="sticky top-0 z-40 bg-white/80 backdrop-blur-md border-b border-slate-200/60 shadow-sm shadow-slate-900/[0.02] dark:bg-slate-950/70 dark:border-slate-800/70 dark:shadow-none">
@@ -37,12 +39,10 @@ export function Header() {
           <ThemeToggle />
           <LanguageToggle />
           <a
-            href={phoneHref}
+            href={tel}
             className="hidden xl:inline-flex items-center gap-1.5 rounded-full border border-slate-200 px-3 py-2 text-sm font-medium text-slate-800 hover:border-slate-300 transition-colors dark:border-slate-700 dark:text-slate-200 dark:hover:border-slate-600"
           >
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-              <path strokeLinecap="round" strokeLinejoin="round" d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6A19.79 19.79 0 012.12 4.18 2 2 0 014.11 2h3a2 2 0 012 1.72c.13.96.37 1.9.72 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.91.35 1.85.59 2.81.72A2 2 0 0122 16.92z" />
-            </svg>
+            <PhoneIcon size={14} />
             {t.footer.phone}
           </a>
           <a
@@ -87,7 +87,7 @@ export function Header() {
               </a>
             ))}
             <a
-              href={phoneHref}
+              href={tel}
               className="py-1 text-brand-600 font-medium dark:text-brand-400"
             >
               {t.nav.callCta}

@@ -1,4 +1,5 @@
 import { useTranslation } from '../hooks/useTranslation'
+import { ArrowIcon } from './ui/icons'
 
 const HERO_IMAGE =
   'https://images.unsplash.com/photo-1558002038-1055907df827?auto=format&fit=crop&w=1400&q=80'
@@ -53,18 +54,7 @@ export function Hero() {
                 }}
               >
                 <span className="relative z-10">{t.hero.cta}</span>
-                <svg
-                  aria-hidden="true"
-                  width="14"
-                  height="14"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="2.5"
-                  className="relative z-10 transition-transform group-hover:translate-x-0.5"
-                >
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M5 12h14M13 5l7 7-7 7" />
-                </svg>
+                <ArrowIcon className="relative z-10 transition-transform group-hover:translate-x-0.5" />
               </a>
               <a
                 href="#why"

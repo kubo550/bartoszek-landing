@@ -1,4 +1,5 @@
 import { useTranslation } from '../hooks/useTranslation'
+import { SectionEyebrow } from './ui/SectionEyebrow'
 
 const BULLET_ICONS = [
   (
@@ -34,9 +35,7 @@ export function Intro() {
       />
 
       <div className="mx-auto max-w-4xl px-4 md:px-6 text-center" data-reveal>
-        <span className="inline-flex items-center rounded-full bg-brand-50 ring-1 ring-brand-100 text-brand-700 text-xs font-medium px-3 py-1 dark:bg-brand-500/15 dark:ring-brand-500/30 dark:text-brand-300">
-          {t.intro.eyebrow}
-        </span>
+        <SectionEyebrow>{t.intro.eyebrow}</SectionEyebrow>
         <h2 className="mt-4 text-3xl md:text-4xl font-semibold tracking-tight">{t.intro.title}</h2>
         <p className="mt-5 text-slate-600 leading-relaxed dark:text-slate-400">{t.intro.paragraph1}</p>
         <p className="mt-4 text-slate-600 leading-relaxed dark:text-slate-400">{t.intro.paragraph2}</p>

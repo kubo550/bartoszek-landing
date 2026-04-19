@@ -1,5 +1,7 @@
 import type { ReactNode } from 'react'
 import { useTranslation } from '../hooks/useTranslation'
+import { SectionHeader } from './ui/SectionHeader'
+import { ArrowIcon } from './ui/icons'
 
 const ICONS: ReactNode[] = [
   (
@@ -63,15 +65,12 @@ export function Services() {
       <div aria-hidden="true" className="pointer-events-none absolute -bottom-24 left-10 h-64 w-64 rounded-full bg-sky-100/60 blur-3xl dark:bg-sky-500/10" />
 
       <div className="relative mx-auto max-w-6xl px-4 md:px-6">
-        <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6" data-reveal>
-          <div className="max-w-2xl">
-            <span className="inline-flex items-center rounded-full bg-white ring-1 ring-slate-200 text-slate-700 text-xs font-medium px-3 py-1 shadow-sm dark:bg-slate-800 dark:ring-slate-700 dark:text-slate-200 dark:shadow-none">
-              {t.services.title}
-            </span>
-            <h2 className="mt-3 text-3xl md:text-4xl font-semibold tracking-tight">{t.services.title}</h2>
-            <p className="mt-3 text-slate-600 dark:text-slate-400">{t.services.subtitle}</p>
-          </div>
-        </div>
+        <SectionHeader
+          eyebrow={t.services.title}
+          eyebrowVariant="slate"
+          title={t.services.title}
+          subtitle={t.services.subtitle}
+        />
 
         <div className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
           {t.services.items.map((item, idx) => (
@@ -104,9 +103,7 @@ export function Services() {
                 aria-hidden="true"
                 className="relative mt-4 inline-flex items-center gap-1 text-xs font-medium text-brand-600 opacity-0 -translate-x-1 transition-all group-hover:opacity-100 group-hover:translate-x-0 group-focus-visible:opacity-100 group-focus-visible:translate-x-0 dark:text-brand-400"
               >
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M5 12h14M13 5l7 7-7 7" />
-                </svg>
+                <ArrowIcon />
               </span>
             </a>
           ))}
@@ -118,9 +115,7 @@ export function Services() {
             className="inline-flex items-center gap-2 rounded-full bg-brand-600 px-6 py-3 text-sm font-medium text-white shadow-lg shadow-brand-600/20 hover:bg-brand-700 hover:-translate-y-0.5 transition-all"
           >
             {t.services.ctaContact}
-            <svg aria-hidden="true" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
-              <path strokeLinecap="round" strokeLinejoin="round" d="M5 12h14M13 5l7 7-7 7" />
-            </svg>
+            <ArrowIcon />
           </a>
           <a
             href="#pricing"

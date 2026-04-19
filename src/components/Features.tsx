@@ -1,4 +1,6 @@
 import { useTranslation } from '../hooks/useTranslation'
+import { SectionHeader } from './ui/SectionHeader'
+import { CheckIcon } from './ui/icons'
 
 const ACCENTS = [
   {
@@ -46,13 +48,7 @@ export function Features() {
   return (
     <section id="why" className="relative py-20 md:py-28">
       <div className="mx-auto max-w-6xl px-4 md:px-6">
-        <div className="max-w-2xl" data-reveal>
-          <span className="inline-flex items-center rounded-full bg-brand-50 ring-1 ring-brand-100 text-brand-700 text-xs font-medium px-3 py-1 dark:bg-brand-500/15 dark:ring-brand-500/30 dark:text-brand-300">
-            {t.intro.eyebrow}
-          </span>
-          <h2 className="mt-3 text-3xl md:text-4xl font-semibold tracking-tight">{t.features.title}</h2>
-          <p className="mt-3 text-slate-600 dark:text-slate-400">{t.features.subtitle}</p>
-        </div>
+        <SectionHeader eyebrow={t.intro.eyebrow} title={t.features.title} subtitle={t.features.subtitle} />
 
         <div className="mt-12 grid gap-6 md:grid-cols-3">
           {t.features.items.map((item, idx) => {
@@ -123,9 +119,7 @@ export function Features() {
                           className="flex items-start gap-2.5 text-sm text-slate-600 dark:text-slate-400"
                         >
                           <span className={`mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-full ${checkBg}`}>
-                            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3">
-                              <path strokeLinecap="round" strokeLinejoin="round" d="M5 12l5 5 9-11" />
-                            </svg>
+                            <CheckIcon size={12} strokeWidth={3} />
                           </span>
                           <span>{b}</span>
                         </li>
