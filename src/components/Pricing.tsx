@@ -14,12 +14,12 @@ export function Pricing() {
       <div className="relative mx-auto max-w-6xl px-4 md:px-6">
         <SectionHeader eyebrow={t.pricing.title} title={t.pricing.title} subtitle={t.pricing.subtitle} />
 
-        <div className="mt-12 grid gap-6 md:grid-cols-2">
-          {t.pricing.groups.map((group, idx) => {
-            const featured = idx === 0
+        <div className="mt-12 grid gap-6 md:grid-cols-3">
+          {t.pricing.tiers.map((tier, idx) => {
+            const featured = idx === 1
             return (
               <div
-                key={group.title}
+                key={tier.title}
                 data-reveal
                 style={{ transitionDelay: `${idx * 70}ms` }}
                 className={`relative rounded-2xl p-6 md:p-7 transition hover:-translate-y-0.5 ${
@@ -37,15 +37,15 @@ export function Pricing() {
                     Popularne
                   </span>
                 )}
-                <h3 className="text-lg font-semibold text-slate-900 dark:text-white">{group.title}</h3>
+                <h3 className="text-lg font-semibold text-slate-900 dark:text-white">{tier.title}</h3>
                 <ul className="mt-4 divide-y divide-slate-200/70 dark:divide-slate-700/70">
-                  {group.items.map((item) => (
+                  {tier.items.map((item) => (
                     <li
                       key={item.label}
                       className="flex items-baseline justify-between gap-4 py-3.5 text-sm rounded-lg px-2 -mx-2 hover:bg-slate-50/80 transition-colors dark:hover:bg-slate-800/60"
                     >
                       <span className="text-slate-700 dark:text-slate-300">{item.label}</span>
-                      <span className="whitespace-nowrap font-mono text-base font-semibold text-slate-900 tabular-nums dark:text-white">
+                      <span className="whitespace-nowrap font-mono text-sm font-semibold text-slate-900 tabular-nums dark:text-white">
                         {item.price}
                       </span>
                     </li>
@@ -54,6 +54,26 @@ export function Pricing() {
               </div>
             )
           })}
+        </div>
+
+        <div
+          data-reveal
+          className="mt-8 rounded-2xl bg-white ring-1 ring-slate-200/70 p-6 md:p-7 shadow-sm dark:bg-slate-900 dark:ring-slate-800 dark:shadow-none"
+        >
+          <h3 className="text-lg font-semibold text-slate-900 dark:text-white">{t.pricing.servicesGroup.title}</h3>
+          <ul className="mt-4 grid gap-x-8 sm:grid-cols-2 divide-y divide-slate-200/70 sm:divide-y-0 dark:divide-slate-700/70">
+            {t.pricing.servicesGroup.items.map((item) => (
+              <li
+                key={item.label}
+                className="flex items-baseline justify-between gap-4 py-3.5 text-sm rounded-lg px-2 -mx-2 hover:bg-slate-50/80 transition-colors dark:hover:bg-slate-800/60"
+              >
+                <span className="text-slate-700 dark:text-slate-300">{item.label}</span>
+                <span className="whitespace-nowrap font-mono text-base font-semibold text-slate-900 tabular-nums dark:text-white">
+                  {item.price}
+                </span>
+              </li>
+            ))}
+          </ul>
         </div>
 
         <div className="mt-12 grid gap-8 md:grid-cols-2 items-start">

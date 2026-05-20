@@ -90,38 +90,46 @@
   "pricing": {
     "title": "Cennik",
     "subtitle": "Orientacyjne widełki cenowe — ostateczna cena po wizji lokalnej",
-    "groups": [
+    "tiers": [
       {
-        "title": "Rekuperacja — montaż",
+        "title": "Budżetowy",
         "items": [
-          { "label": "Mieszkanie / mały dom (do ~80 m²)", "price": "11 000 – 15 000 zł" },
-          { "label": "Dom jednorodzinny 100–150 m²", "price": "15 000 – 25 000 zł" },
-          { "label": "Dom pow. 150 m² / instalacje rozbudowane", "price": "25 000 – 35 000 zł" }
+          { "label": "Dom 70 m²", "price": "16 – 20 tys. zł" },
+          { "label": "Dom 100 m²", "price": "17 – 22 tys. zł" },
+          { "label": "Dom 150 m²", "price": "24 – 30 tys. zł" },
+          { "label": "Powyżej 180 m²", "price": "Wycena indywidualna" }
         ]
       },
       {
-        "title": "Modernizacja instalacji rekuperacji",
+        "title": "Dobra jakość",
         "items": [
-          { "label": "Drobne poprawki", "price": "300 – 1 000 zł" },
-          { "label": "Większe modernizacje", "price": "1 000 – 5 000 zł" }
+          { "label": "Dom 70 m²", "price": "20 – 27 tys. zł" },
+          { "label": "Dom 100 m²", "price": "22 – 30 tys. zł" },
+          { "label": "Dom 150 m²", "price": "30 – 42 tys. zł" },
+          { "label": "Powyżej 180 m²", "price": "Wycena indywidualna" }
         ]
       },
       {
-        "title": "Serwis, przeglądy i regulacja",
+        "title": "Premium",
         "items": [
-          { "label": "Przegląd podstawowy", "price": "300 – 500 zł" },
-          { "label": "Przegląd rozszerzony", "price": "400 – 800 zł" },
-          { "label": "Pomiary i regulacja", "price": "300 – 700 zł" }
-        ]
-      },
-      {
-        "title": "Czyszczenie i dezynfekcja",
-        "items": [
-          { "label": "Czyszczenie centrali", "price": "300 – 600 zł" },
-          { "label": "Czyszczenie + dezynfekcja", "price": "500 – 900 zł" }
+          { "label": "Dom 70 m²", "price": "28 – 40 tys. zł" },
+          { "label": "Dom 100 m²", "price": "35 – 50 tys. zł" },
+          { "label": "Dom 150 m²", "price": "45 – 65 tys. zł" },
+          { "label": "Powyżej 180 m²", "price": "Wycena indywidualna" }
         ]
       }
     ],
+    "servicesGroup": {
+      "title": "Serwis i konserwacja",
+      "items": [
+        { "label": "Przegląd podstawowy", "price": "600 zł" },
+        { "label": "Przegląd + czyszczenie + dezynfekcja", "price": "1 000 – 1 200 zł" },
+        { "label": "Pomiary i regulacja", "price": "600 – 800 zł" },
+        { "label": "Czyszczenie i dezynfekcja", "price": "800 – 1 250 zł" },
+        { "label": "Czyszczenie kanałów", "price": "15 – 30 zł/mb" },
+        { "label": "Diagnostyka kamerą", "price": "260 – 550 zł" }
+      ]
+    },
     "whatAffectsTitle": "Co wpływa na cenę?",
     "whatAffects": [
       "Powierzchnia i układ domu",

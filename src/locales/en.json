@@ -90,38 +90,46 @@
   "pricing": {
     "title": "Pricing",
     "subtitle": "Indicative price ranges — final price after an on-site visit",
-    "groups": [
+    "tiers": [
       {
-        "title": "MVHR — installation",
+        "title": "Budget",
         "items": [
-          { "label": "Flat / small home (up to ~80 m²)", "price": "11,000 – 15,000 PLN" },
-          { "label": "Single-family home 100–150 m²", "price": "15,000 – 25,000 PLN" },
-          { "label": "Home over 150 m² / extensive installs", "price": "25,000 – 35,000 PLN" }
+          { "label": "Home 70 m²", "price": "16,000 – 20,000 PLN" },
+          { "label": "Home 100 m²", "price": "17,000 – 22,000 PLN" },
+          { "label": "Home 150 m²", "price": "24,000 – 30,000 PLN" },
+          { "label": "Over 180 m²", "price": "Custom quote" }
         ]
       },
       {
-        "title": "MVHR modernisation",
+        "title": "Good quality",
         "items": [
-          { "label": "Minor fixes", "price": "300 – 1,000 PLN" },
-          { "label": "Larger upgrades", "price": "1,000 – 5,000 PLN" }
+          { "label": "Home 70 m²", "price": "20,000 – 27,000 PLN" },
+          { "label": "Home 100 m²", "price": "22,000 – 30,000 PLN" },
+          { "label": "Home 150 m²", "price": "30,000 – 42,000 PLN" },
+          { "label": "Over 180 m²", "price": "Custom quote" }
         ]
       },
       {
-        "title": "Service, inspections & balancing",
+        "title": "Premium",
         "items": [
-          { "label": "Basic inspection", "price": "300 – 500 PLN" },
-          { "label": "Extended inspection", "price": "400 – 800 PLN" },
-          { "label": "Measurements & balancing", "price": "300 – 700 PLN" }
-        ]
-      },
-      {
-        "title": "Cleaning & disinfection",
-        "items": [
-          { "label": "Unit cleaning", "price": "300 – 600 PLN" },
-          { "label": "Cleaning + disinfection", "price": "500 – 900 PLN" }
+          { "label": "Home 70 m²", "price": "28,000 – 40,000 PLN" },
+          { "label": "Home 100 m²", "price": "35,000 – 50,000 PLN" },
+          { "label": "Home 150 m²", "price": "45,000 – 65,000 PLN" },
+          { "label": "Over 180 m²", "price": "Custom quote" }
         ]
       }
     ],
+    "servicesGroup": {
+      "title": "Service & maintenance",
+      "items": [
+        { "label": "Basic inspection", "price": "600 PLN" },
+        { "label": "Inspection + cleaning + disinfection", "price": "1,000 – 1,200 PLN" },
+        { "label": "Measurements & balancing", "price": "600 – 800 PLN" },
+        { "label": "Cleaning & disinfection", "price": "800 – 1,250 PLN" },
+        { "label": "Duct cleaning", "price": "15 – 30 PLN/lm" },
+        { "label": "Camera diagnostics", "price": "260 – 550 PLN" }
+      ]
+    },
     "whatAffectsTitle": "What affects the price?",
     "whatAffects": [
       "Home size and layout",
