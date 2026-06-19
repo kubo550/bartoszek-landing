@@ -14,6 +14,7 @@ export function Header() {
     { href: '#services', label: t.nav.services },
     { href: '#pricing', label: t.nav.pricing },
     { href: '#subsidies', label: t.nav.subsidies },
+    { href: '#faq', label: t.nav.faq },
     { href: '#contact', label: t.nav.contact },
   ]
 

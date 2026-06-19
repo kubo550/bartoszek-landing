@@ -1,8 +1,8 @@
 {
   "meta": {
-    "title": "Komfort Instal — kompleksowy montaż instalacji w twoim domu",
+    "title": "Komfort Instal, kompleksowy montaż instalacji w twoim domu",
     "description": "Kompleksowy montaż rekuperacji w domach jednorodzinnych. Projekt, instalacja, serwis, cennik i dotacje. Trzebinia, Małopolskie.",
-    "ogTitle": "Komfort Instal — kompleksowy montaż instalacji w twoim domu",
+    "ogTitle": "Komfort Instal, kompleksowy montaż instalacji w twoim domu",
     "ogDescription": "Rekuperacja, projekt, montaż i serwis. Szybki montaż, fachowa obsługa. Trzebinia, Małopolskie."
   },
   "nav": {
@@ -10,12 +10,13 @@
     "why": "Dlaczego rekuperacja",
     "subsidies": "Dotacje",
     "pricing": "Cennik",
+    "faq": "FAQ",
     "contact": "Kontakt",
     "cta": "Uzyskaj wycenę",
     "callCta": "Zadzwoń 533 722 303"
   },
   "hero": {
-    "eyebrow": "Komfort Instal — Trzebinia, Małopolskie",
+    "eyebrow": "Komfort Instal • Trzebinia, Małopolskie",
     "title": "Kompleksowy montaż instalacji w twoim domu",
     "subtitle": "Szybki montaż • Fachowa obsługa",
     "cta": "UZYSKAJ WYCENĘ",
@@ -25,7 +26,7 @@
   "intro": {
     "eyebrow": "Rekuperacja",
     "title": "Do czego służy rekuperacja?",
-    "paragraph1": "Rekuperacja to nowoczesny system wentylacji, który zapewnia stałą wymianę powietrza w budynku bez konieczności otwierania okien. Zużyte powietrze jest usuwane, a w jego miejsce trafia świeże — wcześniej przefiltrowane i wstępnie ogrzane.",
+    "paragraph1": "Rekuperacja to nowoczesny system wentylacji, który zapewnia stałą wymianę powietrza w budynku bez konieczności otwierania okien. Zużyte powietrze jest usuwane, a w jego miejsce trafia świeże, wcześniej przefiltrowane i wstępnie ogrzane.",
     "paragraph2": "Dzięki temu w domu zawsze masz dostęp do świeżego powietrza, bez strat ciepła i bez wpływu warunków zewnętrznych.",
     "whyTitle": "Dlaczego warto zamontować rekuperację?",
     "bullets": [
@@ -41,7 +42,7 @@
       {
         "number": "01",
         "title": "Realne oszczędności i niższe rachunki",
-        "description": "Rekuperacja pozwala odzyskać nawet do 80–90% ciepła z powietrza wywiewanego z domu. Oznacza to mniejsze straty energii i realnie niższe koszty ogrzewania — szczególnie w nowych, dobrze ocieplonych budynkach. Inwestycja w rekuperację zwraca się poprzez niższe rachunki i większą efektywność całego systemu grzewczego.",
+        "description": "Rekuperacja pozwala odzyskać nawet do 80–90% ciepła z powietrza wywiewanego z domu. Oznacza to mniejsze straty energii i realnie niższe koszty ogrzewania, szczególnie w nowych, dobrze ocieplonych budynkach. Inwestycja w rekuperację zwraca się poprzez niższe rachunki i większą efektywność całego systemu grzewczego.",
         "bulletsTitle": "",
         "bullets": []
       },
@@ -77,7 +78,7 @@
       { "number": "01", "title": "Montaż rekuperacji", "description": "Pełny montaż systemów wentylacji z odzyskiem ciepła w domach jednorodzinnych." },
       { "number": "02", "title": "Projekt instalacji rekuperacji", "description": "Indywidualne projekty rekuperacji dopasowane do układu pomieszczeń i stylu życia." },
       { "number": "03", "title": "Serwis i przeglądy rekuperacji", "description": "Regularne przeglądy i serwis utrzymujący system w pełnej sprawności." },
-      { "number": "04", "title": "Czyszczenie i dezynfekcja rekuperacji", "description": "Czyszczenie kanałów i dezynfekcja układu — świeże powietrze bez zanieczyszczeń." },
+      { "number": "04", "title": "Czyszczenie i dezynfekcja rekuperacji", "description": "Czyszczenie kanałów i dezynfekcja układu dla świeżego powietrza bez zanieczyszczeń." },
       { "number": "05", "title": "Regulacja i pomiary przepływów", "description": "Precyzyjne ustawienie strumieni powietrza dla każdego pomieszczenia." },
       { "number": "06", "title": "Modernizacja instalacji rekuperacji", "description": "Unowocześnienie istniejących układów wentylacji i poprawa ich efektywności." },
       { "number": "07", "title": "Przewierty i przygotowanie instalacji", "description": "Przewierty w stropach i ścianach oraz przygotowanie tras dla instalacji." },
@@ -89,45 +90,46 @@
   },
   "pricing": {
     "title": "Cennik",
-    "subtitle": "Orientacyjne widełki cenowe — ostateczna cena po wizji lokalnej",
+    "subtitle": "Orientacyjne widełki cenowe, ostateczna cena po wizji lokalnej",
+    "priceLabel": "Wycena indywidualna",
     "tiers": [
       {
         "title": "Budżetowy",
-        "items": [
-          { "label": "Dom 70 m²", "price": "16 – 20 tys. zł" },
-          { "label": "Dom 100 m²", "price": "17 – 22 tys. zł" },
-          { "label": "Dom 150 m²", "price": "24 – 30 tys. zł" },
-          { "label": "Powyżej 180 m²", "price": "Wycena indywidualna" }
+        "description": "Sprawdzone, ekonomiczne rozwiązania dla domów, gdzie liczy się rozsądny koszt i pewne działanie.",
+        "features": [
+          "Centrala rekuperacyjna klasy podstawowej",
+          "Standardowe rozprowadzenie kanałów",
+          "Montaż i uruchomienie systemu"
         ]
       },
       {
         "title": "Dobra jakość",
-        "items": [
-          { "label": "Dom 70 m²", "price": "20 – 27 tys. zł" },
-          { "label": "Dom 100 m²", "price": "22 – 30 tys. zł" },
-          { "label": "Dom 150 m²", "price": "30 – 42 tys. zł" },
-          { "label": "Powyżej 180 m²", "price": "Wycena indywidualna" }
+        "description": "Optymalny stosunek ceny do jakości, najczęściej wybierany przez naszych klientów.",
+        "features": [
+          "Wydajna centrala z dobrym odzyskiem ciepła",
+          "Optymalny projekt rozprowadzenia powietrza",
+          "Regulacja i pomiary przepływów"
         ]
       },
       {
         "title": "Premium",
-        "items": [
-          { "label": "Dom 70 m²", "price": "28 – 40 tys. zł" },
-          { "label": "Dom 100 m²", "price": "35 – 50 tys. zł" },
-          { "label": "Dom 150 m²", "price": "45 – 65 tys. zł" },
-          { "label": "Powyżej 180 m²", "price": "Wycena indywidualna" }
+        "description": "Najwyższa efektywność i komfort, z dodatkowymi funkcjami i pełną automatyką.",
+        "features": [
+          "Topowa centrala z najwyższym odzyskiem ciepła",
+          "Dodatki: GWC, bypass, czujniki CO₂",
+          "Pełna automatyka i sterowanie"
         ]
       }
     ],
     "servicesGroup": {
       "title": "Serwis i konserwacja",
       "items": [
-        { "label": "Przegląd podstawowy", "price": "600 zł" },
-        { "label": "Przegląd + czyszczenie + dezynfekcja", "price": "1 000 – 1 200 zł" },
-        { "label": "Pomiary i regulacja", "price": "600 – 800 zł" },
-        { "label": "Czyszczenie i dezynfekcja", "price": "800 – 1 250 zł" },
-        { "label": "Czyszczenie kanałów", "price": "15 – 30 zł/mb" },
-        { "label": "Diagnostyka kamerą", "price": "260 – 550 zł" }
+        { "label": "Przegląd podstawowy", "price": "od 500 zł" },
+        { "label": "Przegląd + czyszczenie + dezynfekcja", "price": "od 900 zł" },
+        { "label": "Pomiary i regulacja", "price": "od 500 zł" },
+        { "label": "Czyszczenie i dezynfekcja", "price": "od 700 zł" },
+        { "label": "Czyszczenie kanałów", "price": "od 13 zł/mb" },
+        { "label": "Diagnostyka kamerą", "price": "od 230 zł" }
       ]
     },
     "whatAffectsTitle": "Co wpływa na cenę?",
@@ -139,16 +141,16 @@
       "Dodatkowe elementy: GWC, bypass, czujniki CO₂"
     ],
     "noteTitle": "Przygotowujemy wycenę nawet w 24h",
-    "noteBody": "Wyślij rzut lub opis prac — oddzwonimy i umówimy wizję lokalną.",
+    "noteBody": "Wyślij rzut lub opis prac, a oddzwonimy i umówimy wizję lokalną.",
     "cta": "Uzyskaj ofertę"
   },
   "subsidies": {
     "title": "Dotacje",
-    "subtitle": "Sprawdź dostępne dofinansowania — pomożemy dobrać odpowiedni program",
+    "subtitle": "Sprawdź dostępne dofinansowania, a pomożemy dobrać odpowiedni program",
     "items": [
       {
         "name": "Pożyczka na OZE",
-        "description": "Pożyczka OZE dla mieszkańców — FEMP umożliwia finansowanie inwestycji w ekologiczne źródła energii dla właścicieli budynków jednorodzinnych w Małopolsce.",
+        "description": "Pożyczka OZE dla mieszkańców. FEMP umożliwia finansowanie inwestycji w ekologiczne źródła energii dla właścicieli budynków jednorodzinnych w Małopolsce.",
         "details": [
           "Kwota pożyczki: do 250 000 zł",
           "Oprocentowanie: 0%",
@@ -159,7 +161,7 @@
       },
       {
         "name": "Moje Ciepło",
-        "description": "Dotacja NFOŚiGW na pompy ciepła w nowych domach — od 7 do 21 tys. zł, w zależności od rodzaju urządzenia.",
+        "description": "Dotacja NFOŚiGW na pompy ciepła w nowych domach, od 7 do 21 tys. zł w zależności od rodzaju urządzenia.",
         "details": [
           "Nabór: do 31 grudnia 2026 r.",
           "Budżet programu: 600 mln zł"
@@ -176,7 +178,7 @@
       },
       {
         "name": "Czyste Powietrze",
-        "description": "Program dla właścicieli domów jednorodzinnych — wymiana źródeł ciepła, termomodernizacja i audyt energetyczny.",
+        "description": "Program dla właścicieli domów jednorodzinnych: wymiana źródeł ciepła, termomodernizacja i audyt energetyczny.",
         "details": [
           "Wsparcie: nawet do 136 200 zł w zależności od poziomu dochodów"
         ],
@@ -185,9 +187,43 @@
     ],
     "readMore": "Czytaj więcej"
   },
+  "faq": {
+    "title": "Najczęściej zadawane pytania",
+    "subtitle": "Wszystko, co warto wiedzieć o rekuperacji, zanim zdecydujesz się na montaż",
+    "items": [
+      {
+        "question": "Ile kosztuje montaż rekuperacji w domu jednorodzinnym?",
+        "answer": "Koszt zależy od metrażu, układu pomieszczeń i wybranej centrali. Montaż zaczyna się od kilkunastu tysięcy złotych, a ostateczną cenę podajemy po bezpłatnej wizji lokalnej. Część inwestycji można pokryć z dostępnych dotacji."
+      },
+      {
+        "question": "Czy rekuperacja się opłaca?",
+        "answer": "Tak. Rekuperacja odzyskuje nawet do 90% ciepła z usuwanego powietrza, co realnie obniża rachunki za ogrzewanie. Inwestycja zwraca się poprzez niższe koszty energii, a dodatkowo zyskujesz świeże, przefiltrowane powietrze przez cały rok."
+      },
+      {
+        "question": "Jak działa rekuperacja?",
+        "answer": "Rekuperacja to wentylacja mechaniczna z odzyskiem ciepła. System stale usuwa zużyte powietrze i dostarcza świeże, wcześniej przefiltrowane i ogrzane ciepłem z powietrza wywiewanego, bez konieczności otwierania okien."
+      },
+      {
+        "question": "Czy rekuperację można zamontować w już istniejącym domu?",
+        "answer": "Tak. W budynkach po remoncie lub wykończonych stosujemy rozwiązania natynkowe oraz instalacje prowadzone w zabudowie. Podczas wizji lokalnej dobieramy wariant najmniej ingerujący w wykończenie."
+      },
+      {
+        "question": "Czy na rekuperację można dostać dofinansowanie?",
+        "answer": "Tak. Rekuperacja może być finansowana m.in. z programów Czyste Powietrze, Moje Ciepło czy pożyczki na OZE w Małopolsce. Pomagamy dobrać odpowiedni program i przejść przez formalności."
+      },
+      {
+        "question": "Jak często trzeba serwisować rekuperację?",
+        "answer": "Filtry warto wymieniać co 3 do 6 miesięcy, a pełny przegląd z czyszczeniem i dezynfekcją zalecamy raz w roku. Regularny serwis utrzymuje wysoką sprawność systemu i jakość powietrza."
+      },
+      {
+        "question": "Ile trwa montaż rekuperacji?",
+        "answer": "W typowym domu jednorodzinnym montaż instalacji zajmuje zwykle od 2 do 4 dni roboczych, w zależności od metrażu i stopnia skomplikowania tras. Dokładny termin ustalamy po projekcie."
+      }
+    ]
+  },
   "form": {
     "title": "Uzyskaj wycenę",
-    "subtitle": "Opisz swoje potrzeby — odezwiemy się szybko",
+    "subtitle": "Opisz swoje potrzeby, a odezwiemy się szybko",
     "fields": {
       "name": "Imię",
       "namePlaceholder": "Jan",
@@ -208,7 +244,7 @@
     "orCall": "lub zadzwoń bezpośrednio"
   },
   "footer": {
-    "tagline": "Kompleksowy montaż instalacji w twoim domu — Małopolska",
+    "tagline": "Kompleksowy montaż instalacji w twoim domu, Małopolska",
     "contact": "Kontakt",
     "phone": "533 722 303",
     "email": "Komfort.instal@gmail.com",
@@ -216,7 +252,7 @@
     "links": "Nawigacja",
     "legal": "Informacje",
     "legalLinks": [
-      { "label": "FAQ", "href": "#" },
+      { "label": "FAQ", "href": "#faq" },
       { "label": "Regulamin", "href": "#" },
       { "label": "Polityka prywatności", "href": "#" },
       { "label": "Deklaracja dostępności", "href": "#" }

@@ -22,7 +22,7 @@ export function Pricing() {
                 key={tier.title}
                 data-reveal
                 style={{ transitionDelay: `${idx * 70}ms` }}
-                className={`relative rounded-2xl p-6 md:p-7 transition hover:-translate-y-0.5 ${
+                className={`relative flex h-full flex-col rounded-2xl p-6 md:p-7 transition hover:-translate-y-0.5 ${
                   featured
                     ? 'bg-gradient-to-br from-brand-50 via-white to-sky-50 ring-1 ring-brand-200/80 shadow-lg shadow-brand-600/5 dark:from-brand-500/10 dark:via-slate-900 dark:to-sky-500/10 dark:ring-brand-500/30 dark:shadow-none'
                     : 'bg-white ring-1 ring-slate-200/70 shadow-sm hover:shadow-md dark:bg-slate-900 dark:ring-slate-800 dark:shadow-none'
@@ -38,19 +38,20 @@ export function Pricing() {
                   </span>
                 )}
                 <h3 className="text-lg font-semibold text-slate-900 dark:text-white">{tier.title}</h3>
-                <ul className="mt-4 divide-y divide-slate-200/70 dark:divide-slate-700/70">
-                  {tier.items.map((item) => (
-                    <li
-                      key={item.label}
-                      className="flex items-baseline justify-between gap-4 py-3.5 text-sm rounded-lg px-2 -mx-2 hover:bg-slate-50/80 transition-colors dark:hover:bg-slate-800/60"
-                    >
-                      <span className="text-slate-700 dark:text-slate-300">{item.label}</span>
-                      <span className="whitespace-nowrap font-mono text-sm font-semibold text-slate-900 tabular-nums dark:text-white">
-                        {item.price}
+                <p className="mt-2 text-sm leading-relaxed text-slate-600 dark:text-slate-400">{tier.description}</p>
+                <ul className="mt-5 space-y-2.5">
+                  {tier.features.map((feature) => (
+                    <li key={feature} className="flex items-start gap-2.5 text-sm text-slate-700 dark:text-slate-300">
+                      <span className="mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-brand-50 text-brand-600 dark:bg-brand-500/15 dark:text-brand-300">
+                        <CheckIcon size={12} strokeWidth={3} />
                       </span>
+                      <span>{feature}</span>
                     </li>
                   ))}
                 </ul>
+                <p className="mt-auto border-t border-slate-200/70 pt-4 text-sm font-semibold text-brand-700 dark:border-slate-700/70 dark:text-brand-300">
+                  {t.pricing.priceLabel}
+                </p>
               </div>
             )
           })}
@@ -58,17 +59,17 @@ export function Pricing() {
 
         <div
           data-reveal
-          className="mt-8 rounded-2xl bg-white ring-1 ring-slate-200/70 p-6 md:p-7 shadow-sm dark:bg-slate-900 dark:ring-slate-800 dark:shadow-none"
+          className="mt-8 rounded-2xl bg-white ring-1 ring-slate-200/70 p-5 md:p-6 shadow-sm dark:bg-slate-900 dark:ring-slate-800 dark:shadow-none"
         >
-          <h3 className="text-lg font-semibold text-slate-900 dark:text-white">{t.pricing.servicesGroup.title}</h3>
-          <ul className="mt-4 grid gap-x-8 sm:grid-cols-2 divide-y divide-slate-200/70 sm:divide-y-0 dark:divide-slate-700/70">
+          <h3 className="text-base font-semibold text-slate-900 dark:text-white">{t.pricing.servicesGroup.title}</h3>
+          <ul className="mt-3 grid gap-x-8 sm:grid-cols-2 divide-y divide-slate-200/70 sm:divide-y-0 dark:divide-slate-700/70">
             {t.pricing.servicesGroup.items.map((item) => (
               <li
                 key={item.label}
-                className="flex items-baseline justify-between gap-4 py-3.5 text-sm rounded-lg px-2 -mx-2 hover:bg-slate-50/80 transition-colors dark:hover:bg-slate-800/60"
+                className="flex items-baseline justify-between gap-4 py-2.5 text-sm rounded-lg px-2 -mx-2 hover:bg-slate-50/80 transition-colors dark:hover:bg-slate-800/60"
               >
                 <span className="text-slate-700 dark:text-slate-300">{item.label}</span>
-                <span className="whitespace-nowrap font-mono text-base font-semibold text-slate-900 tabular-nums dark:text-white">
+                <span className="whitespace-nowrap font-mono text-sm font-semibold text-slate-900 tabular-nums dark:text-white">
                   {item.price}
                 </span>
               </li>

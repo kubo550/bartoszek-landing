@@ -1,8 +1,8 @@
 {
   "meta": {
-    "title": "Komfort Instal — end-to-end home installations",
+    "title": "Komfort Instal, end-to-end home installations",
     "description": "End-to-end heat recovery ventilation (MVHR) for homes. Design, installation, service, pricing and subsidies. Trzebinia, Małopolska.",
-    "ogTitle": "Komfort Instal — end-to-end home installations",
+    "ogTitle": "Komfort Instal, end-to-end home installations",
     "ogDescription": "MVHR, design, installation and service. Fast install, expert team. Trzebinia, Małopolska."
   },
   "nav": {
@@ -10,12 +10,13 @@
     "why": "Why MVHR",
     "subsidies": "Subsidies",
     "pricing": "Pricing",
+    "faq": "FAQ",
     "contact": "Contact",
     "cta": "Get a quote",
     "callCta": "Call 533 722 303"
   },
   "hero": {
-    "eyebrow": "Komfort Instal — Trzebinia, Małopolska",
+    "eyebrow": "Komfort Instal • Trzebinia, Małopolska",
     "title": "End-to-end home installations",
     "subtitle": "Fast install • Expert team",
     "cta": "GET A QUOTE",
@@ -25,7 +26,7 @@
   "intro": {
     "eyebrow": "MVHR",
     "title": "What is heat recovery ventilation?",
-    "paragraph1": "MVHR is a modern ventilation system that provides a constant air exchange in your building without opening windows. Stale air is removed, and fresh air — pre-filtered and pre-heated — is supplied in its place.",
+    "paragraph1": "MVHR is a modern ventilation system that provides a constant air exchange in your building without opening windows. Stale air is removed, and fresh, pre-filtered and pre-heated air is supplied in its place.",
     "paragraph2": "The result: always fresh air at home, with no heat loss and no influence from outside conditions.",
     "whyTitle": "Why install MVHR?",
     "bullets": [
@@ -41,7 +42,7 @@
       {
         "number": "01",
         "title": "Real savings and lower bills",
-        "description": "MVHR can recover up to 80–90% of the heat from the air extracted from your home. That means less energy lost and real savings on heating — especially in new, well-insulated buildings. The investment pays back through lower bills and a more efficient heating system.",
+        "description": "MVHR can recover up to 80–90% of the heat from the air extracted from your home. That means less energy lost and real savings on heating, especially in new, well-insulated buildings. The investment pays back through lower bills and a more efficient heating system.",
         "bulletsTitle": "",
         "bullets": []
       },
@@ -77,7 +78,7 @@
       { "number": "01", "title": "MVHR installation", "description": "Full installation of heat recovery ventilation in single-family homes." },
       { "number": "02", "title": "MVHR system design", "description": "Individual MVHR designs matched to your layout and lifestyle." },
       { "number": "03", "title": "MVHR service & inspections", "description": "Regular inspections and service keeping your system in top condition." },
-      { "number": "04", "title": "MVHR cleaning & disinfection", "description": "Duct cleaning and system disinfection — fresh air free of contaminants." },
+      { "number": "04", "title": "MVHR cleaning & disinfection", "description": "Duct cleaning and system disinfection for fresh air free of contaminants." },
       { "number": "05", "title": "Airflow measurement & balancing", "description": "Precise airflow settings for every room in the house." },
       { "number": "06", "title": "MVHR system upgrades", "description": "Modernising existing ventilation systems and improving their efficiency." },
       { "number": "07", "title": "Drilling & prep work", "description": "Drilling through ceilings and walls and preparing routes for ductwork." },
@@ -89,45 +90,46 @@
   },
   "pricing": {
     "title": "Pricing",
-    "subtitle": "Indicative price ranges — final price after an on-site visit",
+    "subtitle": "Indicative price ranges, final price after an on-site visit",
+    "priceLabel": "Custom quote",
     "tiers": [
       {
         "title": "Budget",
-        "items": [
-          { "label": "Home 70 m²", "price": "16,000 – 20,000 PLN" },
-          { "label": "Home 100 m²", "price": "17,000 – 22,000 PLN" },
-          { "label": "Home 150 m²", "price": "24,000 – 30,000 PLN" },
-          { "label": "Over 180 m²", "price": "Custom quote" }
+        "description": "Proven, cost-effective solutions for homes where a sensible budget and reliable operation matter most.",
+        "features": [
+          "Entry-level MVHR unit",
+          "Standard duct routing",
+          "Installation and commissioning"
         ]
       },
       {
         "title": "Good quality",
-        "items": [
-          { "label": "Home 70 m²", "price": "20,000 – 27,000 PLN" },
-          { "label": "Home 100 m²", "price": "22,000 – 30,000 PLN" },
-          { "label": "Home 150 m²", "price": "30,000 – 42,000 PLN" },
-          { "label": "Over 180 m²", "price": "Custom quote" }
+        "description": "The best value for money and our customers' most popular choice.",
+        "features": [
+          "Efficient unit with strong heat recovery",
+          "Optimised air distribution design",
+          "Balancing and flow measurements"
         ]
       },
       {
         "title": "Premium",
-        "items": [
-          { "label": "Home 70 m²", "price": "28,000 – 40,000 PLN" },
-          { "label": "Home 100 m²", "price": "35,000 – 50,000 PLN" },
-          { "label": "Home 150 m²", "price": "45,000 – 65,000 PLN" },
-          { "label": "Over 180 m²", "price": "Custom quote" }
+        "description": "Top efficiency and comfort, with extra features and full automation.",
+        "features": [
+          "Top-tier unit with the highest heat recovery",
+          "Extras: GHE, bypass, CO₂ sensors",
+          "Full automation and control"
         ]
       }
     ],
     "servicesGroup": {
       "title": "Service & maintenance",
       "items": [
-        { "label": "Basic inspection", "price": "600 PLN" },
-        { "label": "Inspection + cleaning + disinfection", "price": "1,000 – 1,200 PLN" },
-        { "label": "Measurements & balancing", "price": "600 – 800 PLN" },
-        { "label": "Cleaning & disinfection", "price": "800 – 1,250 PLN" },
-        { "label": "Duct cleaning", "price": "15 – 30 PLN/lm" },
-        { "label": "Camera diagnostics", "price": "260 – 550 PLN" }
+        { "label": "Basic inspection", "price": "from 500 PLN" },
+        { "label": "Inspection + cleaning + disinfection", "price": "from 900 PLN" },
+        { "label": "Measurements & balancing", "price": "from 500 PLN" },
+        { "label": "Cleaning & disinfection", "price": "from 700 PLN" },
+        { "label": "Duct cleaning", "price": "from 13 PLN/lm" },
+        { "label": "Camera diagnostics", "price": "from 230 PLN" }
       ]
     },
     "whatAffectsTitle": "What affects the price?",
@@ -139,16 +141,16 @@
       "Extras: GHE, bypass, CO₂ sensors"
     ],
     "noteTitle": "We prepare a quote within 24h",
-    "noteBody": "Send a floor plan or work scope — we'll call back and arrange an on-site visit.",
+    "noteBody": "Send a floor plan or work scope, and we'll call back and arrange an on-site visit.",
     "cta": "Get a quote"
   },
   "subsidies": {
     "title": "Subsidies",
-    "subtitle": "Available funding programmes — we'll help you pick the right one",
+    "subtitle": "Available funding programmes, we'll help you pick the right one",
     "items": [
       {
         "name": "OZE Loan",
-        "description": "OZE loan for residents — FEMP finances green-energy investments for single-family-home owners in Małopolska.",
+        "description": "OZE loan for residents. FEMP finances green-energy investments for single-family-home owners in Małopolska.",
         "details": [
           "Loan amount: up to 250,000 PLN",
           "Interest: 0%",
@@ -159,7 +161,7 @@
       },
       {
         "name": "Moje Ciepło",
-        "description": "NFOŚiGW subsidy for heat pumps in new homes — from 7,000 to 21,000 PLN depending on the unit type.",
+        "description": "NFOŚiGW subsidy for heat pumps in new homes, from 7,000 to 21,000 PLN depending on the unit type.",
         "details": [
           "Applications open until 31 December 2026",
           "Programme budget: 600 M PLN"
@@ -176,7 +178,7 @@
       },
       {
         "name": "Czyste Powietrze",
-        "description": "Programme for single-family-home owners — replacing heat sources, thermal upgrades and energy audits.",
+        "description": "Programme for single-family-home owners: replacing heat sources, thermal upgrades and energy audits.",
         "details": [
           "Support: up to 136,200 PLN depending on income"
         ],
@@ -185,9 +187,43 @@
     ],
     "readMore": "Read more"
   },
+  "faq": {
+    "title": "Frequently asked questions",
+    "subtitle": "Everything worth knowing about heat recovery ventilation before you decide to install",
+    "items": [
+      {
+        "question": "How much does MVHR installation cost in a single-family home?",
+        "answer": "The cost depends on the floor area, room layout and the chosen unit. Installation starts from a few thousand euros' worth of work, and we give a final price after a free on-site visit. Part of the investment can be covered by available subsidies."
+      },
+      {
+        "question": "Is heat recovery ventilation worth it?",
+        "answer": "Yes. MVHR recovers up to 90% of the heat from extracted air, which genuinely lowers heating bills. The investment pays back through lower energy costs, and you get fresh, filtered air all year round."
+      },
+      {
+        "question": "How does heat recovery ventilation work?",
+        "answer": "MVHR is mechanical ventilation with heat recovery. The system continuously removes stale air and supplies fresh air that has been filtered and pre-heated using the warmth of the extracted air, with no need to open windows."
+      },
+      {
+        "question": "Can MVHR be installed in an existing house?",
+        "answer": "Yes. In renovated or finished buildings we use surface-mounted solutions and ducts routed within boxing. During the on-site visit we choose the option that interferes least with your finishes."
+      },
+      {
+        "question": "Can I get funding for MVHR?",
+        "answer": "Yes. MVHR can be financed through programmes such as Czyste Powietrze, Moje Ciepło or the OZE loan in Małopolska. We help you pick the right programme and handle the paperwork."
+      },
+      {
+        "question": "How often does MVHR need servicing?",
+        "answer": "Filters should be replaced every 3 to 6 months, and we recommend a full inspection with cleaning and disinfection once a year. Regular servicing keeps the system efficient and the air clean."
+      },
+      {
+        "question": "How long does MVHR installation take?",
+        "answer": "In a typical single-family home the installation usually takes 2 to 4 working days, depending on the floor area and how complex the routing is. We confirm the exact schedule after the design stage."
+      }
+    ]
+  },
   "form": {
     "title": "Get a quote",
-    "subtitle": "Describe your needs — we'll get back to you quickly",
+    "subtitle": "Describe your needs and we'll get back to you quickly",
     "fields": {
       "name": "First name",
       "namePlaceholder": "John",
@@ -208,7 +244,7 @@
     "orCall": "or call us directly"
   },
   "footer": {
-    "tagline": "End-to-end home installations — Małopolska",
+    "tagline": "End-to-end home installations, Małopolska",
     "contact": "Contact",
     "phone": "533 722 303",
     "email": "Komfort.instal@gmail.com",
@@ -216,7 +252,7 @@
     "links": "Navigation",
     "legal": "Info",
     "legalLinks": [
-      { "label": "FAQ", "href": "#" },
+      { "label": "FAQ", "href": "#faq" },
       { "label": "Terms", "href": "#" },
       { "label": "Privacy policy", "href": "#" },
       { "label": "Accessibility statement", "href": "#" }

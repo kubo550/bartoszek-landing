@@ -11,6 +11,7 @@ import { Features } from './components/Features'
 import { Services } from './components/Services'
 import { Pricing } from './components/Pricing'
 import { Subsidies } from './components/Subsidies'
+import { Faq } from './components/Faq'
 import { ContactForm } from './components/ContactForm'
 import { Footer } from './components/Footer'
 
@@ -32,6 +33,7 @@ function Site() {
         <Services />
         <Pricing />
         <Subsidies />
+        <Faq />
         <ContactForm />
       </main>
       <Footer />

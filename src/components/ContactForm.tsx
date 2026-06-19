@@ -90,8 +90,8 @@ export function ContactForm() {
           data-reveal
           className="mt-10 grid gap-4 sm:grid-cols-2 bg-white/[0.04] backdrop-blur-sm p-6 md:p-8 rounded-2xl ring-1 ring-white/10 shadow-2xl shadow-black/30"
         >
-          <input type="hidden" name="subject" value="Nowe zapytanie z www — Komfort Instal" />
-          <input type="hidden" name="from_name" value="Komfort Instal — landing" />
+          <input type="hidden" name="subject" value="Nowe zapytanie z www - Komfort Instal" />
+          <input type="hidden" name="from_name" value="Komfort Instal - landing" />
           <input
             type="checkbox"
             name="botcheck"
