@@ -25,6 +25,10 @@ export function Footer() {
             <span>Komfort Instal</span>
           </div>
           <p className="mt-3 text-sm text-slate-600 max-w-xs leading-relaxed dark:text-slate-400">{t.footer.tagline}</p>
+          <div className="mt-5">
+            <h3 className="text-sm font-semibold text-slate-900 dark:text-white">{t.footer.area}</h3>
+            <p className="mt-2 text-sm text-slate-600 max-w-xs leading-relaxed dark:text-slate-400">{t.footer.areaText}</p>
+          </div>
         </div>
 
         <div>

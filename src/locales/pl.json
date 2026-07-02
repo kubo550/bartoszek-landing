@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Montaż rekuperacji Trzebinia, Małopolska – Komfort Instal",
-    "description": "Kompleksowy montaż rekuperacji w domach jednorodzinnych. Projekt, instalacja, serwis, cennik i dotacje. Trzebinia, Małopolskie.",
+    "description": "Kompleksowy montaż rekuperacji (wentylacja mechaniczna z odzyskiem ciepła) w domach jednorodzinnych. Projekt, instalacja, serwis, cennik i dotacje. Trzebinia, Chrzanów, Małopolska i Śląsk.",
     "ogTitle": "Komfort Instal, kompleksowy montaż instalacji w twoim domu",
     "ogDescription": "Rekuperacja, projekt, montaż i serwis. Szybki montaż, fachowa obsługa. Trzebinia, Małopolskie."
   },
@@ -26,7 +26,7 @@
   "intro": {
     "eyebrow": "Rekuperacja",
     "title": "Do czego służy rekuperacja?",
-    "paragraph1": "Rekuperacja to nowoczesny system wentylacji, który zapewnia stałą wymianę powietrza w budynku bez konieczności otwierania okien. Zużyte powietrze jest usuwane, a w jego miejsce trafia świeże, wcześniej przefiltrowane i wstępnie ogrzane.",
+    "paragraph1": "Rekuperacja, czyli wentylacja mechaniczna z odzyskiem ciepła, to nowoczesny system, który zapewnia stałą wymianę powietrza w budynku bez konieczności otwierania okien. Zużyte powietrze jest usuwane, a w jego miejsce trafia świeże, wcześniej przefiltrowane i wstępnie ogrzane.",
     "paragraph2": "Dzięki temu w domu zawsze masz dostęp do świeżego powietrza, bez strat ciepła i bez wpływu warunków zewnętrznych.",
     "whyTitle": "Dlaczego warto zamontować rekuperację?",
     "bullets": [
@@ -243,8 +243,37 @@
     "privacy": "Wysyłając formularz, akceptujesz naszą politykę prywatności.",
     "orCall": "lub zadzwoń bezpośrednio"
   },
+  "regions": {
+    "eyebrow": "Obszar działania",
+    "title": "Montaż rekuperacji w Twojej okolicy",
+    "subtitle": "Działamy w Małopolsce i na Śląsku — dojedziemy na bezpłatną wizję lokalną i doradzimy na miejscu.",
+    "items": [
+      {
+        "name": "Trzebinia i powiat chrzanowski",
+        "description": "Nasza baza. Montaż, projekt i serwis rekuperacji w Trzebini, Chrzanowie, Libiążu i sąsiednich gminach — szybki dojazd i bezpłatna wizja lokalna."
+      },
+      {
+        "name": "Śląsk",
+        "description": "Wentylacja mechaniczna z odzyskiem ciepła w Jaworznie, Sosnowcu, Katowicach, Będzinie i Mysłowicach. Obsługujemy domy jednorodzinne w całej aglomeracji śląskiej."
+      },
+      {
+        "name": "Kraków i zachodnia Małopolska",
+        "description": "Rekuperacja w Krakowie, Olkuszu, Oświęcimiu i Chrzanowie. Projektujemy i montujemy instalacje dopasowane do domu — od budowy po budynki już wykończone."
+      }
+    ]
+  },
+  "ctaBanner": {
+    "eyebrow": "Bezpłatna wycena",
+    "title": "Zadzwoń jeszcze dziś",
+    "text": "Zadzwoń do końca dnia, a umówimy bezpłatną wizję lokalną i przygotujemy wycenę Twojej rekuperacji nawet w 24 godziny.",
+    "button": "Zadzwoń 533 722 303",
+    "secondary": "Wolisz wiadomość? Napisz do nas",
+    "note": "Odbieramy pon.–pt. 8:00–18:00"
+  },
   "footer": {
-    "tagline": "Kompleksowy montaż instalacji w twoim domu, Małopolska",
+    "tagline": "Kompleksowy montaż instalacji w twoim domu, Małopolska i Śląsk",
+    "area": "Obszar działania",
+    "areaText": "Trzebinia, Chrzanów, Libiąż, Jaworzno, Oświęcim, Olkusz, Kraków, Katowice, Sosnowiec, Będzin — Małopolska i Śląsk.",
     "contact": "Kontakt",
     "phone": "533 722 303",
     "email": "Komfort.instal@gmail.com",

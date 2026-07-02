@@ -9,8 +9,10 @@ import { Hero } from './components/Hero'
 import { Intro } from './components/Intro'
 import { Features } from './components/Features'
 import { Services } from './components/Services'
+import { Regions } from './components/Regions'
 import { Pricing } from './components/Pricing'
 import { Subsidies } from './components/Subsidies'
+import { CtaBanner } from './components/CtaBanner'
 import { Faq } from './components/Faq'
 import { ContactForm } from './components/ContactForm'
 import { Footer } from './components/Footer'
@@ -31,8 +33,10 @@ function Site() {
         <Intro />
         <Features />
         <Services />
+        <Regions />
         <Pricing />
         <Subsidies />
+        <CtaBanner />
         <Faq />
         <ContactForm />
       </main>

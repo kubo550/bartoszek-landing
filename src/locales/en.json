@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "MVHR Installation in Trzebinia, Małopolska – Komfort Instal",
-    "description": "End-to-end heat recovery ventilation (MVHR) for homes. Design, installation, service, pricing and subsidies. Trzebinia, Małopolska.",
+    "description": "End-to-end heat recovery ventilation (MVHR) for homes. Design, installation, service, pricing and subsidies. Trzebinia, Chrzanów, Małopolska and Śląsk.",
     "ogTitle": "Komfort Instal, end-to-end home installations",
     "ogDescription": "MVHR, design, installation and service. Fast install, expert team. Trzebinia, Małopolska."
   },
@@ -243,8 +243,37 @@
     "privacy": "By submitting the form you accept our privacy policy.",
     "orCall": "or call us directly"
   },
+  "regions": {
+    "eyebrow": "Service area",
+    "title": "MVHR installation in your area",
+    "subtitle": "We work across Małopolska and Śląsk — we'll come out for a free on-site visit and advise on the spot.",
+    "items": [
+      {
+        "name": "Trzebinia & Chrzanów county",
+        "description": "Our home base. Installation, design and service of heat recovery ventilation in Trzebinia, Chrzanów, Libiąż and neighbouring towns — fast callout and a free on-site visit."
+      },
+      {
+        "name": "Śląsk",
+        "description": "Mechanical ventilation with heat recovery in Jaworzno, Sosnowiec, Katowice, Będzin and Mysłowice. We serve single-family homes across the Silesian metropolis."
+      },
+      {
+        "name": "Kraków & western Małopolska",
+        "description": "MVHR in Kraków, Olkusz, Oświęcim and Chrzanów. We design and install systems tailored to your home — from new builds to already-finished houses."
+      }
+    ]
+  },
+  "ctaBanner": {
+    "eyebrow": "Free quote",
+    "title": "Call us today",
+    "text": "Call before the end of the day and we'll arrange a free on-site visit and prepare your MVHR quote within 24 hours.",
+    "button": "Call 533 722 303",
+    "secondary": "Prefer a message? Write to us",
+    "note": "We answer Mon–Fri 8:00–18:00"
+  },
   "footer": {
-    "tagline": "End-to-end home installations, Małopolska",
+    "tagline": "End-to-end home installations, Małopolska and Śląsk",
+    "area": "Service area",
+    "areaText": "Trzebinia, Chrzanów, Libiąż, Jaworzno, Oświęcim, Olkusz, Kraków, Katowice, Sosnowiec, Będzin — Małopolska and Śląsk.",
     "contact": "Contact",
     "phone": "533 722 303",
     "email": "Komfort.instal@gmail.com",
